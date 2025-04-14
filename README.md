@@ -1,2 +1,3 @@
 # EMMOE
 EMMOE: A Comprehensive Benchmark for Embodied Mobile Manipulation in Open Environments
+Explicit usages will be updated soon...
