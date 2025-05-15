@@ -11,7 +11,13 @@ Autonomous household robots driven by user instructions.
 <!-- [![Demo](https://img.youtube.com/vi/wYnjsRY2SXs/0.jpg)](https://www.youtube.com/watch?v=wYnjsRY2SXs) -->
 
 
-[![Demo](https://github.com/silence143/EMMOE/blob/main/assets/page.png)](https://github.com/silence143/EMMOE/blob/main/assets/paper_demonstration.mp4)
+<!-- [![Demo](https://github.com/silence143/EMMOE/blob/main/assets/page.png)](https://github.com/silence143/EMMOE/blob/main/assets/paper_demonstration.mp4) -->
+
+<p align="center">
+  <a href="https://github.com/silence143/EMMOE/blob/main/assets/paper_demonstration.mp4?raw=true" target="_blank">
+    <img src="https://github.com/silence143/EMMOE/blob/main/assets/page.png" alt="Demo Video" width="640">
+  </a>
+</p>
 
 
 ## Quick Start
