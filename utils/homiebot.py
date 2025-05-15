@@ -3,10 +3,10 @@ from .comm import Communicator_HLP
 import os
 
 class HomieBot:
-    def __init__(self):
+    def __init__(self, port=10010):
         self.conv = Conversation()
         self.inventory = []
-        self.comm = Communicator_HLP()
+        self.comm = Communicator_HLP(port)
 
     def get_inventory(self):
         if len(self.inventory) == 0:

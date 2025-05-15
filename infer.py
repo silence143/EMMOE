@@ -13,8 +13,8 @@ from utils import HomieBot
 disable_torch_init()
 
 
-model_path = 'checkpoints/homiebot-7b-dpo'
-#model_path = 'checkpoints/homiebot-7b-sft'
+model_path = 'checkpoints/HomieBot-7B-DPO'
+#model_path = 'checkpoints/HomieBot-7B-SFT'
 
 cache_dir = 'cache_dir'
 device = 'cuda:0'
@@ -22,9 +22,8 @@ model_name = get_model_name_from_path(model_path)
 tokenizer, model, processor, _ = load_pretrained_model(model_path, None, model_name, load_4bit=True, device=device, cache_dir=cache_dir)
 image_processor = processor['image']
 
-
-homie = HomieBot()
 task = input("Input your task: ")
+homie = HomieBot()
 
 for i in range(1, 4):
     save_path = f"infer/{i}"
@@ -98,3 +97,4 @@ for i in range(1, 4):
     homie.conv.save(os.path.join(save_path, "conversation.json"))
 
 homie.end()
+print("All data are saved in ./infer")

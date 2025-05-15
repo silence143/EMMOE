@@ -15,7 +15,7 @@ disable_torch_init()
 exp_dir = "exp"
 
 exp_name = "sft+dpo"
-model_path = 'checkpoints/homiebot-7b-dpo'
+model_path = 'checkpoints/HomieBot-7B-DPO'
 #exp_name = "sft" 
 #model_path = 'checkpoints/homiebot-7b-sft'
 exp_path = os.path.join(exp_dir, exp_name)

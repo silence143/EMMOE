@@ -2,9 +2,9 @@ import json
 import socket
 
 class Communicator_HLP:
-    def __init__(self):
+    def __init__(self, port):
         self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.s.bind(('127.0.0.1', 10010))
+        self.s.bind(('127.0.0.1', port))
         self.s.listen(1)
         print("Server is listening...")
         self.conn, self.addr = self.s.accept()
@@ -30,9 +30,9 @@ class Communicator_HLP:
         self.s.close()
 
 class Communicator_LLE:
-    def __init__(self):
+    def __init__(self, port):
         self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.s.connect(('127.0.0.1', 10010))
+        self.s.connect(('127.0.0.1', port))
 
     def send_env_images(self, images):
         message = json.dumps(images)

@@ -36,7 +36,6 @@ from mobile_manipulation.utils.wrappers import HabitatActionWrapper
 from mobile_manipulation.test_ppo_trainer_interface import PPOTrainerCTL
 import imageio
 
-
 class Communicator_LLE:
     def __init__(self):
         self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -594,7 +593,7 @@ max_count = 20
 comm = Communicator_LLE()
 
 save_dir = "../infer"
-data_path = "../EMMOE-100/data/train/1/scene.json"
+data_path = "mobile_manipulation/test_scene.json"
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
     
