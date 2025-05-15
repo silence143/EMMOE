@@ -8,16 +8,13 @@ Autonomous household robots driven by user instructions.
 [![Model](https://img.shields.io/badge/Model-yellow?logo=huggingface)](https://huggingface.co/collections/Dongping-Li/emmoe-dataset-and-model-67c6b04da2b83b08ec273ef2)
 [![Dataset](https://img.shields.io/badge/Dataset-yellow?logo=huggingface)](https://huggingface.co/datasets/Dongping-Li/EMMOE-100)
 
-<!-- [![Demo](https://img.youtube.com/vi/wYnjsRY2SXs/0.jpg)](https://www.youtube.com/watch?v=wYnjsRY2SXs) -->
 
 
-<!-- [![Demo](https://github.com/silence143/EMMOE/blob/main/assets/page.png)](https://github.com/silence143/EMMOE/blob/main/assets/paper_demonstration.mp4) -->
 
-<p align="center">
-  <a href="https://github.com/silence143/EMMOE/blob/main/assets/paper_demonstration.mp4?raw=true" target="_blank">
-    <img src="https://github.com/silence143/EMMOE/blob/main/assets/page.png" alt="Demo Video" width="640">
-  </a>
-</p>
+
+https://github.com/user-attachments/assets/6295596f-fea3-4e1b-b287-52b3d26470b0
+
+
 
 
 ## Quick Start
