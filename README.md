@@ -10,7 +10,7 @@ Autonomous household robots driven by user instructions.
 
 <!-- [![Demo](https://img.youtube.com/vi/wYnjsRY2SXs/0.jpg)](https://www.youtube.com/watch?v=wYnjsRY2SXs) -->
 
-<video src="https://github.com/silence143/EMMOE/blob/main/assets/paper_demonstration.mp4?raw=true" controls width="640"></video>
+https://github.com/silence143/EMMOE/blob/main/assets/paper_demonstration.mp4?raw=true
 
 
 ## Quick Start
@@ -105,3 +105,7 @@ After getting the experimental results, you can use the scripts in `scripts/metr
   year={2025}
 }
 ```
+
+## License
+
+This project is released under the [Apache License 2.0](https://github.com/silence143/EMMOE/blob/main/LICENSE). Please also adhere to the Licenses of models and datasets being used.
